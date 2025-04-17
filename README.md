@@ -21,4 +21,46 @@ Welcome to my 30-day Python coding challenge! I'm dedicating the next 30 days to
 - Strings in Python are immutable sequences of characters enclosed in either single `'` or double `"` quotes.
 - You can manipulate and analyze strings easily using built-in methods.
 
+- ## 📅 Day 2: Keywords, Identifiers, Variables & Strings Deep Dive
+
+### ✅ Topics Covered:
+- Python keywords and their purpose
+- Identifiers and naming rules
+- Writing single-line and multi-line comments
+- Understanding statements in Python
+- Variable assignment using `=`
+- Multiple assignment in a single line
+- Python Data Types:
+  - Numeric types: `int`, `float`, `complex`
+  - Boolean type: `True`, `False`
+  - String type and its properties
+- String creation using quotes
+- String indexing:
+  - Forward indexing (starting from 0)
+  - Backward indexing (starting from -1)
+- String slicing: extracting substrings
+- String updation and deletion (immutability concept)
+- String concatenation using `+`
+
+### 📝 Notes:
+- **Keywords** are reserved words in Python (like `if`, `else`, `True`, `None`, `import`) that cannot be used as variable names.
+- **Identifiers** are names given to variables, functions, classes, etc., and must follow Python’s naming rules (start with a letter or `_`, no special characters or spaces).
+- **Comments** make code easier to understand:
+  - Single-line: starts with `#`
+  - Multi-line: wrapped in triple quotes `'''` or `"""`
+- A **statement** is an instruction that the Python interpreter executes. Example: `x = 5`
+- Variables are created by assigning values with `=`, and you can assign multiple variables at once like `a, b = 1, 2`.
+- **Numeric types** include:
+  - `int` for whole numbers (`x = 10`)
+  - `float` for decimal numbers (`pi = 3.14`)
+  - `complex` for complex numbers (`z = 2 + 3j`)
+- **Boolean** values represent truth: `True` or `False`.
+- **Strings** are sequences of characters and can be created using single `'`, double `"`, or triple quotes.
+- You can access string characters using indexing:
+  - Forward indexing: `text[0]` for first character
+  - Backward indexing: `text[-1]` for last character
+- **Slicing** extracts parts of a string: `text[1:4]` gives characters from index 1 to 3.
+- **Strings are immutable**, so they cannot be changed in place. To update, create a new string. Use `del` to delete a string variable.
+- **Concatenation** combines strings using the `+` operator: `"Hello " + "World"` results in `"Hello World"`.
+
 
