@@ -63,43 +63,43 @@ Welcome to my 30-day Python coding challenge! I'm dedicating the next 30 days to
 - **Strings are immutable**, so they cannot be changed in place. To update, create a new string. Use `del` to delete a string variable.
 - **Concatenation** combines strings using the `+` operator: `"Hello " + "World"` results in `"Hello World"`.
 
-📅 Day 3: Print Statement, String Formatting, End Statement & Separator
-✅ Topics Covered:
+- ## 📅 Day 3: Print Statement, String Formatting, End Statement & Separator
+## ✅ Topics Covered:
 
-The print() function in Python
+- The print() function in Python
 
-Using multiple arguments in print()
+- Using multiple arguments in print()
 
-Customizing output with the end parameter
+- Customizing output with the end parameter
 
-Using the sep parameter to define separators between values
+- Using the sep parameter to define separators between values
 
-String formatting using:
+- String formatting using:
 
-f-strings (formatted string literals)
+- f-strings (formatted string literals)
 
-.format() method
+- .format() method
 
-% operator
+- % operator
 
-📝 Notes:
+## 📝 Notes:
 
-The print() function is used to display output to the console.
-Example: print("Hello, World!")
+- The print() function is used to display output to the console.
+**Example:-** print("Hello, World!")
 
-The end parameter in print() lets you control what is printed at the end.
-Example: print("Hello", end=" ") will continue on the same line.
+- The end parameter in print() lets you control what is printed at the end.
+**Example:-** print("Hello", end=" ") will continue on the same line.
 
-The sep parameter allows you to customize the separator between multiple values.
-Example:- print("2025", "04", "19", sep="-") will output 2025-04-19.
+- The sep parameter allows you to customize the separator between multiple values.
+ **Example:-** print("2025", "04", "19", sep="-") will output 2025-04-19.
 
-String Formatting Techniques:
+### String Formatting Techniques:
 
-f-strings: name = "Alice"; print(f"Hello, {name}!")
+- f-strings: name = "Alice"; print(f"Hello, {name}!")
 
-.format() method: print("Hello, {}!".format(name))
+- .format() method: print("Hello, {}!".format(name))
 
-% formatting: print("Hello, %s!" % name)
+- % formatting: print("Hello, %s!" % name)
 
-These formatting tools help in producing clean, readable, and dynamic output in Python.
+- These formatting tools help in producing clean, readable, and dynamic output in Python.
 
