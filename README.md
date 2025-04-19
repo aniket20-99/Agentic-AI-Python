@@ -102,4 +102,100 @@ Welcome to my 30-day Python coding challenge! I'm dedicating the next 30 days to
 - % formatting: print("Hello, %s!" % name)
 
 - These formatting tools help in producing clean, readable, and dynamic output in Python.
+---
+
+# 📘 Python Basics: Arithmetic, Variables, and Comparisons
+
+- **foundational Python concepts** with clear, practical examples. It's perfect for **beginners** who are starting out with Python and want to understand how the language handles numbers, variables, logic, and expressions.
+
+---
+
+## 📌 Topics Covered
+
+### ➕ Arithmetic Operations
+
+Understand how Python performs basic math operations such as:
+- **Addition**, **Subtraction**, **Multiplication**
+- **Division** (returns a float result)
+- **Floor Division** (discards the decimal part)
+- **Modulus** (returns the remainder)
+- **Exponentiation** (raises a number to a given power)
+
+- These operations form the core of any numerical computation in programming.
+
+---
+
+### 🔢 Number Types
+
+Explore the primary number types in Python:
+- **Integers** – whole numbers (e.g., `3`, `42`)
+- **Floating-point numbers** – decimals like `3.14`, `9.81`
+- **Complex numbers** – include a real and imaginary part (e.g., `1 + 1j`)
+
+Understanding these types is essential for math-heavy or scientific applications.
+
+---
+
+### 🧮 Variables and Assignments
+
+Learn how to:
+- Declare and assign values to variables
+- Use variables to store results of operations
+- Follow naming conventions and avoid overwriting built-in functions
+
+This section helps you understand how data is stored and manipulated in Python.
+
+---
+
+### 📐 Practical Math Examples
+
+Includes simple but useful real-world applications:
+- **Area of a Circle** – calculated using radius and π
+- **Area of a Rectangle** – using length and width
+- **Weight Calculation** – using mass and gravitational force
+
+These examples show how math formulas translate directly into code.
+
+---
+
+### 🔍 Comparison Operators
+
+Explore how to compare values using:
+- `==` (Equal), `!=` (Not Equal)
+- `>` (Greater Than), `<` (Less Than)
+- `>=` (Greater or Equal), `<=` (Less or Equal)
+
+Also includes examples using the `len()` function to compare string lengths.
+
+---
+
+### 🧠 Boolean Logic
+
+Covers the use of:
+- `and`, `or`, `not` operators
+- Combining multiple conditions
+- Evaluating `True` and `False` in logical expressions
+
+Logical operations are crucial for writing conditions, decisions, and loops in programs.
+
+---
+
+### 🧾 Identity and Membership Operators
+
+Introduces:
+- `is` and `is not`: Check if two values share the same identity in memory
+- `in` and `not in`: Check if a value exists within a string or collection
+
+These operators are useful in data checking, filtering, and string handling.
+
+---
+
+## 🙌 Acknowledgment
+
+This notebook was created to make **Python learning easy and practical**. The concepts covered here are fundamental and will be valuable for progressing into more advanced Python topics.
+
+---
+
+Feel free to fork the repo, play around with the code, and use it as a learning resource! 🚀
+
 
