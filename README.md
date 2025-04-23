@@ -189,6 +189,39 @@ Introduces:
 These operators are useful in data checking, filtering, and string handling.
 
 ---
+📅 Day 4: Working with Lists in Python
+
+✅ Topics Covered:
+- What is a list in Python?
+- Creating and modifying lists
+- Indexing and slicing lists
+- Nested lists and how to access elements within them
+- Looping through lists using `for` and `while` loops
+- Checking list membership using `in` and `not in`
+- Built-in list methods:
+  - `append()`
+  - `extend()`
+  - `insert()`
+  - `remove()`
+  - `pop()`
+  - `index()`
+  - `count()`
+  - `sort()` / `sorted()`
+  - `reverse()`
+- Using `all()` and `any()` for logical checks on list elements
+
+📝 Notes:
+- A **list** in Python is an ordered, mutable collection of items, which can be of mixed data types.
+- Lists are defined using square brackets `[]`.
+- **Indexing** allows access to individual items, while **slicing** helps retrieve subsets of a list.
+- Lists can contain other lists (nested lists), and accessing their elements requires multiple indices.
+- **Looping** is a powerful way to process each item in a list.
+- Use `in` to check if an element exists in a list.
+- Python’s built-in list methods make list manipulation easy and efficient.
+- `all()` returns `True` if **all** elements in an iterable are true.
+- `any()` returns `True` if **any** element in an iterable is true.
+
+
 
 ## 🙌 Acknowledgment
 
