@@ -189,9 +189,9 @@ Introduces:
 These operators are useful in data checking, filtering, and string handling.
 
 ---
-📅 Day 4: Working with Lists in Python
+## 📅 Day 4: Working with Lists in Python
 
-✅ Topics Covered:
+## ✅ Topics Covered:
 - What is a list in Python?
 - Creating and modifying lists
 - Indexing and slicing lists
