@@ -221,6 +221,26 @@ These operators are useful in data checking, filtering, and string handling.
 - `all()` returns `True` if **all** elements in an iterable are true.
 - `any()` returns `True` if **any** element in an iterable is true.
 
+---
+📅 **Day 5: Tuples in Python**  
+✅ **Topics Covered:**  
+- Introduction to Tuples  
+- Tuple creation and syntax  
+- Indexing and accessing tuple elements  
+- Tuple functions: `len()`, `max()`, `min()`, `sum()` (for numeric tuples)  
+- `count()` and `index()` methods  
+- Checking membership with `in` and `not in`  
+- Iterating through a tuple using loops  
+- Tuple immutability  
+- Deleting a tuple using `del`
+
+📝 **Notes:**  
+- **Tuples** are ordered, immutable collections of items. Once created, their elements cannot be changed, making them ideal for storing fixed data.  
+- Tuples are defined using **parentheses** `()` and can hold items of **mixed data types**.  
+- Since tuples are immutable, operations that would modify their content (like item assignment or deletion) are not allowed.  
+- Tuples are **faster than lists** for certain operations and use **less memory**.  
+- Useful for **read-only data** or as **keys in dictionaries** (since they're hashable).  
+
 
 
 ## 🙌 Acknowledgment
