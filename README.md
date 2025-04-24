@@ -222,8 +222,8 @@ These operators are useful in data checking, filtering, and string handling.
 - `any()` returns `True` if **any** element in an iterable is true.
 
 ---
-📅 **Day 5: Tuples in Python**  
-✅ **Topics Covered:**  
+## 📅 **Day 5: Tuples in Python**  
+### ✅ **Topics Covered:**  
 - Introduction to Tuples  
 - Tuple creation and syntax  
 - Indexing and accessing tuple elements  
