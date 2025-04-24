@@ -63,8 +63,8 @@ Welcome to my 30-day Python coding challenge! I'm dedicating the next 30 days to
 - **Strings are immutable**, so they cannot be changed in place. To update, create a new string. Use `del` to delete a string variable.
 - **Concatenation** combines strings using the `+` operator: `"Hello " + "World"` results in `"Hello World"`.
 
-- ## 📅 Day 3: Print Statement, String Formatting, End Statement & Separator
-## ✅ Topics Covered:
+ ## 📅 Day 3: Print Statement, String Formatting, End Statement & Separator
+### ✅ Topics Covered:
 
 - The print() function in Python
 
