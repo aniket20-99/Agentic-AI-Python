@@ -241,7 +241,64 @@ These operators are useful in data checking, filtering, and string handling.
 - Tuples are **faster than lists** for certain operations and use **less memory**.  
 - Useful for **read-only data** or as **keys in dictionaries** (since they're hashable).  
 
+---
 
+# 📅 Day 6: Introduction to Sets in Python
+✅ **Topics Covered:**
+- What is a Set?
+- How to create a Set in Python
+- Set properties: unordered, mutable, no duplicates
+- Adding elements to a Set: `add()`, `update()`
+- Removing elements from a Set: `remove()`, `discard()`, `pop()`
+- Set operations:
+  - Union (`|`, `union()`)
+  - Intersection (`&`, `intersection()`)
+  - Difference (`-`, `difference()`)
+  - Symmetric Difference (`^`, `symmetric_difference()`)
+- Set membership: `in`, `not in`
+- Set comparisons: equality and subset/superset checks
+- Set comprehensions
+- Practical use cases of Sets in Python
+
+📝 **Notes:**
+- A Set is an unordered collection of unique elements. It does not allow duplicates and is mutable.
+  
+- Sets are used to perform mathematical set operations like union, intersection, and difference, which are essential for tasks that involve collections of items with no particular order.
+  
+- Sets are defined using curly braces `{}` or the `set()` constructor.
+  
+- Common functions include:
+  - `add()`: Adds an element to the set
+  - `update()`: Adds multiple elements to the set
+  - `remove()`: Removes an element from the set; raises `KeyError` if element does not exist
+  - `discard()`: Removes an element from the set without raising an error
+  - `pop()`: Removes and returns an arbitrary element
+  
+- **Set Operations**:
+  - **Union**: Combines two sets, eliminating duplicates
+    - Example: `set1 | set2` or `set1.union(set2)`
+  - **Intersection**: Finds common elements between two sets
+    - Example: `set1 & set2` or `set1.intersection(set2)`
+  - **Difference**: Returns elements in the first set but not in the second
+    - Example: `set1 - set2` or `set1.difference(set2)`
+  - **Symmetric Difference**: Returns elements that are in either set, but not both
+    - Example: `set1 ^ set2` or `set1.symmetric_difference(set2)`
+
+- **Set Membership**:
+  - You can check if an item exists in a set using `in` or `not in`.
+  - Example: `"apple" in fruits`
+
+- **Set Comparisons**:
+  - You can check for subset, superset, or equality of sets.
+  - Example: `set1 <= set2` checks if `set1` is a subset of `set2`
+
+- **Set Comprehensions**:
+  - Similar to list comprehensions but for sets. For example, `{x**2 for x in range(10)}` will generate a set of squares.
+
+- **Practical Use Cases**:
+  - Removing duplicates from a list: `set(list)`
+  - Performing mathematical set operations: Finding common or distinct items between two datasets
+  
 
 ## 🙌 Acknowledgment
 
