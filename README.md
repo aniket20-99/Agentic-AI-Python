@@ -414,9 +414,9 @@ These operators are useful in data checking, filtering, and string handling.
 **Bitwise Operations:** Bitwise operators are powerful tools for manipulating data at the bit level. They are often used in low-level programming, embedded systems, and situations where performance and memory efficiency are critical. Understanding how these operators work can lead to more optimized and elegant solutions for certain types of problems. The complement, AND, and OR operators form the basis of many bit manipulation techniques. Shift operators are particularly useful for efficient multiplication and division by powers of 2.
   
 ---
-**📅 Day 9: Introduction to Math Modules**
+# 📅 Day 9: **Introduction to Math Modules**
 
-**✅ Topics Covered:**
+## ✅ **Topics Covered:**
 
 * **Importing the `math` module:**
     * Using the alias: `import math as m`
