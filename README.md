@@ -438,7 +438,96 @@ These operators are useful in data checking, filtering, and string handling.
 * When importing modules, using an alias (like `import math as m`) can make your code more concise and readable, especially when you use the module's functions frequently.
 * Be mindful of the data type returned by the `input()` function (which is always a string). You'll often need to convert it to an integer or float for mathematical operations.
 * String slicing allows you to access specific substrings of the input based on their index. For example, if the user enters "12345", `input()[0:2]` would give you "12".
+---
+# 📅 Day 10: Working with `input()` and String Manipulation in Python
 
+## ✅ Topics Covered:
+
+🔹 Using `input()` for Strings and Integers  
+- Taking input from the user using `input()`  
+- Type casting with `int()` to convert string input to integers  
+
+🔹 String Manipulation  
+- Indexing and Slicing  
+- Print Formatting with `sep` and `end`  
+- String methods: `startswith()`, `endswith()`, `split()`, `join()`, `strip()`, `lstrip()`, `rstrip()`, `islower()`, `isupper()`, `title()`, `upper()`, `lower()`, `rjust()`, `ljust()`, `center()`, `count()`, `replace()`
+
+```python
+# Taking input
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+# Indexing and slicing
+first_char = name[0]
+last_char = name[-1]
+sliced_name = name[0:3]
+step_slice = name[::2]
+
+# Print formatting
+print("Welcome", name, "!", sep=" *** ", end="\n\n")
+
+# String checks and modifications
+text = "  Hello, Python World!  "
+
+starts = text.startswith("  Hello")
+ends = text.endswith("World!  ")
+split_text = text.split(" ")
+joined_text = "-".join(split_text)
+stripped = text.strip()
+l_stripped = text.lstrip()
+r_stripped = text.rstrip()
+
+# Case checks
+is_lower = text.islower()
+is_upper = text.isupper()
+title_case = text.title()
+upper_case = text.upper()
+lower_case = text.lower()
+
+# Alignment
+centered = name.center(20, "*")
+right_justified = name.rjust(20, "-")
+left_justified = name.ljust(20, "+")
+
+# Count and replace
+count_o = text.count("o")
+replaced = text.replace("Python", "Code")
+
+# Final output
+print(f"First character: {first_char}")
+print(f"Last character: {last_char}")
+print(f"Sliced name: {sliced_name}")
+print(f"Step sliced: {step_slice}")
+print(f"Starts with '  Hello'? {starts}")
+print(f"Ends with 'World!  '? {ends}")
+print(f"Split text: {split_text}")
+print(f"Joined text: {joined_text}")
+print(f"Stripped: '{stripped}'")
+print(f"LStripped: '{l_stripped}'")
+print(f"RStripped: '{r_stripped}'")
+print(f"Is lower? {is_lower}")
+print(f"Is upper? {is_upper}")
+print(f"Title case: {title_case}")
+print(f"Upper case: {upper_case}")
+print(f"Lower case: {lower_case}")
+print(f"Centered: {centered}")
+print(f"Right justified: {right_justified}")
+print(f"Left justified: {left_justified}")
+print(f"Count of 'o': {count_o}")
+print(f"Replaced text: {replaced}")
+📝 Notes:
+
+- The input() function always returns a string, even when numbers are typed. Use int() or float() to convert.
+
+- Strings in Python are immutable — operations return a new string.
+
+- Indexing and slicing help extract specific parts of a string.
+
+- print() can be customized using sep (separator) and end (ending character).
+
+- Use .strip() and .replace() to clean and transform user inputs.
+
+- Formatting with .rjust(), .ljust(), and .center() is useful for creating aligned output displays.
 ## 🙌 Acknowledgment
 
 This notebook was created to make **Python learning easy and practical**. The concepts covered here are fundamental and will be valuable for progressing into more advanced Python topics.
