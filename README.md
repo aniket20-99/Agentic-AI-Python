@@ -2,6 +2,7 @@
 
 Welcome to the Python Learning Repository! This repository is a structured collection of Python learning materials, ranging from beginner basics to advanced topics. Whether you're just starting out or looking to deepen your Python skills, this repo provides a step-by-step progression with well-organized code examples, exercises, and explanations.
 
+If you find this project useful, don't forget to give it a star ⭐ and share it with fellow learners!
 ---
 
 ## 📅 Day 1: Introduction to Python & Strings
