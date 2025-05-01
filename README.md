@@ -1,6 +1,6 @@
 # Python from basics to advanced
 
-Welcome to the Python Learning Repository! This project is a structured collection of Python learning materials, ranging from beginner basics to advanced topics. Whether you're just starting out or looking to deepen your Python skills, this repo provides a step-by-step progression with well-organized code examples, exercises, and explanations.
+Welcome to the Python Learning Repository! This repository is a structured collection of Python learning materials, ranging from beginner basics to advanced topics. Whether you're just starting out or looking to deepen your Python skills, this repo provides a step-by-step progression with well-organized code examples, exercises, and explanations.
 
 ---
 
