@@ -1,9 +1,9 @@
 # Python from basics to advanced
 
 Welcome to the Python Learning Repository! This repository is a structured collection of Python learning materials, ranging from beginner basics to advanced topics. Whether you're just starting out or looking to deepen your Python skills, this repo provides a step-by-step progression with well-organized code examples, exercises, and explanations.
-
-If you find this project useful, don't forget to give it a star ⭐ and share it with fellow learners!
 ---
+
+
 
 ## 📅 Day 1: Introduction to Python & Strings
 
@@ -452,7 +452,9 @@ These operators are useful in data checking, filtering, and string handling.
 - Indexing and Slicing  
 - Print Formatting with `sep` and `end`  
 - String methods: `startswith()`, `endswith()`, `split()`, `join()`, `strip()`, `lstrip()`, `rstrip()`, `islower()`, `isupper()`, `title()`, `upper()`, `lower()`, `rjust()`, `ljust()`, `center()`, `count()`, `replace()`
-
+---
+⭐ Support
+If you find this project useful, don't forget to give it a star ⭐ and share it with fellow learners!
 
 ## 🙌 Acknowledgment
 
